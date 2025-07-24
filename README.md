@@ -1,5 +1,5 @@
-# 🧠 Quote Scraper – small Python learning project
-This is a tiny Python project I built to learn how web scraping works.  
+# 🧠 Data Scraper – small Python learning project
+This is a small Python project I built to learn how web scraping works.  
 It collects quotes from quotes.toscrape.com and saves them in a JSON file.
 
 ## ✨ What it does
