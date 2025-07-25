@@ -18,7 +18,7 @@ namespace DataScraper.Api.Controllers
 
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
-        // GET: api/<QuotesController>
+        // GET: api/<QuotesController> 
         [HttpGet]
         public ActionResult<IEnumerable<Quote>> Get(int page = 1, int pageSize = 10)
         {

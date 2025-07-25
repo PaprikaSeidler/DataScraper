@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|c:\\users\\papri\\onedrive - zealand\\skrivebord\\skole\\mineprojekter\\datascraper\\datascrapersolution\\datascraper.api\\controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|solutionrelative:datascraper.api\\controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34866B1E-31BF-4099-9383-9FBA3E330113}|DataScraper.DataLib\\DataScraper.DataLib.csproj|c:\\users\\papri\\onedrive - zealand\\skrivebord\\skole\\mineprojekter\\datascraper\\datascrapersolution\\datascraper.datalib\\quotesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34866B1E-31BF-4099-9383-9FBA3E330113}|DataScraper.DataLib\\DataScraper.DataLib.csproj|solutionrelative:datascraper.datalib\\quotesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|c:\\users\\papri\\onedrive - zealand\\skrivebord\\skole\\mineprojekter\\datascraper\\datascrapersolution\\datascraper.api\\controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|solutionrelative:datascraper.api\\controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34866B1E-31BF-4099-9383-9FBA3E330113}|DataScraper.DataLib\\DataScraper.DataLib.csproj|c:\\users\\papri\\onedrive - zealand\\skrivebord\\skole\\mineprojekter\\datascraper\\datascrapersolution\\datascraper.datalib\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,17 +66,18 @@
               "RelativeToolTip": "DataScraper.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-25T12:03:05.6Z"
+              "WhenOpened": "2025-07-25T12:03:05.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "QuotesController.cs",
               "DocumentMoniker": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\Controllers\\QuotesController.cs",
               "RelativeDocumentMoniker": "DataScraper.Api\\Controllers\\QuotesController.cs",
               "ToolTip": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\Controllers\\QuotesController.cs",
               "RelativeToolTip": "DataScraper.Api\\Controllers\\QuotesController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAawE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T19:45:48.112Z",
               "EditorCaption": ""
@@ -91,17 +92,18 @@
               "RelativeToolTip": "DataScraper.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T19:41:42.521Z"
+              "WhenOpened": "2025-07-24T19:41:42.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "QuotesRepo.cs",
               "DocumentMoniker": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.DataLib\\QuotesRepo.cs",
               "RelativeDocumentMoniker": "DataScraper.DataLib\\QuotesRepo.cs",
               "ToolTip": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.DataLib\\QuotesRepo.cs",
               "RelativeToolTip": "DataScraper.DataLib\\QuotesRepo.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwEUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T19:23:03.637Z",
               "EditorCaption": ""
@@ -116,7 +118,8 @@
               "RelativeToolTip": "DataScraper.DataLib\\Quote.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T19:19:44.734Z"
+              "WhenOpened": "2025-07-24T19:19:44.734Z",
+              "EditorCaption": ""
             }
           ]
         }

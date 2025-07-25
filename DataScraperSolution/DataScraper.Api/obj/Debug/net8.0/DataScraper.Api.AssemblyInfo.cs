@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataScraper.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+517037a097768fd6cd3c6ad27977dfaa7fcefdbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a628a05f0e7996ad7dbd6610f827f9dc9d4a8f7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataScraper.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataScraper.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

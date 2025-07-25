@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #f6e4f3;
+  box-shadow: 1px 1px 5px #c9bac6;
+}
+
+.color-brown {
+  background-color: #8f695a;
+  color: #8f695a;
+}
+
+.color-pink {
+  background-color: #f0ace5;
+  box-shadow: #c9bac6 0px 0px 5px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6e4f3;
+}

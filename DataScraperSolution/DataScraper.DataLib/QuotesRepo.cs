@@ -15,12 +15,13 @@ namespace DataScraper.DataLib
 
         public QuotesRepo()
         {
-            var json = File.ReadAllText("../../quotes.json");
-            _quotes = JsonConvert.DeserializeObject<List<Quote>>(json) ?? new List<Quote>();
+            
         }
 
         public List<Quote> GetAll(int page = 1, int pageSize = 10)
         {
+            var json = File.ReadAllText("../../quotes.json");
+            _quotes = JsonConvert.DeserializeObject<List<Quote>>(json) ?? new List<Quote>();
             return _quotes.Select(q => new Quote(q)).ToList();
         }
 
@@ -43,12 +44,14 @@ namespace DataScraper.DataLib
         // run python scraper
         public bool RunScraper(out string output, out string error)
         {
-            var scriptPath = "../../scraper.py";
+            // var scriptPath = "../../scraper.py";
+            var scriptPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "scraper.py")); // this ensures the path is correct regardless of where the executable is run from
+
 
             var startInfo = new ProcessStartInfo
             {
                 FileName = "python",
-                Arguments = scriptPath,
+                Arguments = $"\"{scriptPath}\"",
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 UseShellExecute = false,

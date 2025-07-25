@@ -2,6 +2,7 @@ import json  # JSON handling library
 import time  # For adding delays between requests
 import requests # Web scraping library
 from bs4 import BeautifulSoup # HTML parsing library
+import os  # For file handling
 
 
 # This script scrapes quotes from the website 'quotes.toscrape.com'
@@ -28,11 +29,15 @@ while True:
 
 
 # Convert the list to JSON format
-quotesJson = json.dumps(quotesList, indent=4, ensure_ascii=False)
+quotesJson = json.dumps(quotesList, indent=4)
 
 
 # Save the JSON data to a file
-with open('quotes.json', 'w', encoding='utf-8') as file:
+script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the directory of the script
+json_file_path = os.path.join(script_dir, 'quotes.json')  # Create the full path for the JSON file
+with open(json_file_path, 'w', encoding='utf-8') as file:
     file.write(quotesJson)  # Write the JSON data to the file
-print("Quotes have been saved to 'quotes.json'.")  # Confirmation message
+    
+print(f"Quotes have been saved to '{json_file_path}'.")  # Confirmation message
 print(f'Total quotes scraped: {len(quotesList)}')  # Print the total
+print(quotesJson)  # Print the JSON data to the console

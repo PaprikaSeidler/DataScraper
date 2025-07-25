@@ -86,3 +86,4 @@ C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\DataScraper\Dat
 C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\DataScraper\DataScraperSolution\DataScraper.Api\obj\Debug\net8.0\DataScraper.Api.pdb
 C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\DataScraper\DataScraperSolution\DataScraper.Api\obj\Debug\net8.0\DataScraper.Api.genruntimeconfig.cache
 C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\DataScraper\DataScraperSolution\DataScraper.Api\obj\Debug\net8.0\ref\DataScraper.Api.dll
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\DataScraper\DataScraperSolution\DataScraper.Api\bin\Debug\net8.0\quotes.json
