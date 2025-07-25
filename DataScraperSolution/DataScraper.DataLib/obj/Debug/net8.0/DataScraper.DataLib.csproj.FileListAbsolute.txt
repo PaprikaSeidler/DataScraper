@@ -1,0 +1,13 @@
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\bin\Debug\net8.0\DataScraper.DataLib.deps.json
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\bin\Debug\net8.0\DataScraper.DataLib.dll
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\bin\Debug\net8.0\DataScraper.DataLib.pdb
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.csproj.AssemblyReference.cache
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.AssemblyInfoInputs.cache
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.AssemblyInfo.cs
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.csproj.CoreCompileInputs.cache
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.sourcelink.json
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.dll
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\refint\DataScraper.DataLib.dll
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\DataScraper.DataLib.pdb
+C:\Users\papri\OneDrive - Zealand\Skrivebord\Skole\MineProjekter\SimpleQuoteScraper\DataScraperSolution\DataScraper.DataLib\obj\Debug\net8.0\ref\DataScraper.DataLib.dll

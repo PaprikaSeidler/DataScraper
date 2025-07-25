@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataScraper.DataLib", "DataScraper.DataLib\DataScraper.DataLib.csproj", "{34866B1E-31BF-4099-9383-9FBA3E330113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataScraper.Api", "DataScraper.Api\DataScraper.Api.csproj", "{3117E19A-6E79-42AD-96F4-E971D13F7B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34866B1E-31BF-4099-9383-9FBA3E330113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34866B1E-31BF-4099-9383-9FBA3E330113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34866B1E-31BF-4099-9383-9FBA3E330113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34866B1E-31BF-4099-9383-9FBA3E330113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3117E19A-6E79-42AD-96F4-E971D13F7B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3117E19A-6E79-42AD-96F4-E971D13F7B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3117E19A-6E79-42AD-96F4-E971D13F7B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3117E19A-6E79-42AD-96F4-E971D13F7B04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E2B2164-E1F5-4F52-9D55-9666C6BF61B2}
+	EndGlobalSection
+EndGlobal

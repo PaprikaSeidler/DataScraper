@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "78VdVbizLPhcZ5kL7wIf+sPQNcwKs0bMeCvJ9b2H19Q=",
+  "Source": "DataScraper.Api",
+  "BasePath": "_content/DataScraper.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
