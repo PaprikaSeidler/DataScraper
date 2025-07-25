@@ -28,9 +28,29 @@
         <div class="container">
             <h1 class="text-center my-4">Quotes</h1>
 
-            <div class="mb-4">
-                <p>No quotes? <br> Click the button below to scrape new quotes!</p>
-                <button class="btn color-pink" @click="runScraper">Scrape Quotes</button>
+            <div class="row mb-4">
+
+
+                <div class="col-md-8 mb-4">
+                    <p>No quotes? <br> Click the button below to scrape new quotes!<br>(Be patient, this may take a
+                        while)</p>
+                    <button class="btn pinkBtn" @click="runScraper" :disabled="isLoading">
+                        <span v-if="!isLoading">Scrape Quotes</span>
+                        <span v-else>
+                            <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </span>
+                    </button>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" v-model="authorInput" class="form-control mb-2" placeholder="Filter by author"
+                        @keyup.enter="filterByAuthor">
+
+                    <input type="text" v-model="quoteInput" class="form-control" placeholder="Search quotes"
+                        @keyup.enter="searchQuote">
+
+                    <button class="btn btn-secondary mt-2" @click="resetFilters">Reset</button>
+                </div>
             </div>
 
             <div class="row">
@@ -39,7 +59,18 @@
                         <thead>
                             <tr>
                                 <th>Quote</th>
-                                <th>Author</th>
+                                <th>
+                                    Author
+                                    <button class="btn btn-link" @click="sortByAuthor">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-sort-alpha-down" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371zm1.57-.785L11 2.687h-.047l-.652 2.157z" />
+                                            <path
+                                                d="M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645zM4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293z" />
+                                        </svg>
+                                    </button>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -51,6 +82,20 @@
                     </table>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-12 mb-5" align="right">
+
+                    <button v-if="!disablePrevPage" class="btn pinkBtn mr-2" @click="previousPage">Previous page</button>
+                    <button v-else class="btn pinkBtn mr-2" disabled>Previous page</button>
+
+                    <button v-if="!disableNextPage" class="btn pinkBtn" @click="nextPage">Next page</button>
+                    <button v-else class="btn pinkBtn" disabled>Next page</button>
+
+                    <p class="ml-3">Page no: {{ currentPage }}/{{ totalPages }}</p>
+                </div>
+            </div>
+
         </div>
 
 

@@ -8,10 +8,13 @@
   color: #8f695a;
 }
 
-.color-pink {
+.pinkBtn {
   background-color: #f0ace5;
   box-shadow: #c9bac6 0px 0px 5px;
 }
+  .pinkBtn:hover {
+    background-color: #f4c3e4;
+  }
 
 body {
   font-family: 'Roboto', sans-serif;

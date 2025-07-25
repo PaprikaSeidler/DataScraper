@@ -7,6 +7,11 @@ Vue.createApp({
       quote: null,
       authorInput: '',
       quoteInput: '',
+      isLoading: false,
+      currentPage: 1,
+      disableNextPage: false,
+      disablePrevPage: true,
+      totalPages: 10,
     };
   },
  mounted() {
@@ -18,6 +23,7 @@ Vue.createApp({
             try {
                 const response = await axios.get(url);
                 this.quotes = response.data;
+                
             }
             catch (error) {
                 alert(error.message);
@@ -26,6 +32,7 @@ Vue.createApp({
 
         async getAll() {
             await this.getQuotes(baseUrl);
+            this.currentPage = 1;
         },
 
         async sortByAuthor() {
@@ -47,18 +54,48 @@ Vue.createApp({
             if (this.quoteInput.trim() === '') {
                 await this.getAll();
             } else {
-                const url = `${baseUrl}/quote/${this.quoteInput}`;
+                const url = `${baseUrl}/${this.quoteInput}`;
                 await this.getQuotes(url);
             }
         },
 
+        async resetFilters() {
+            this.authorInput = '';
+            this.quoteInput = '';
+            await this.getAll();
+        },
+
         async runScraper() {
+            this.isLoading = true;
             try {
                 await axios.post(`${baseUrl}/scrape`); 
                 await this.getAll();
                 alert('Scraping completed successfully!');
             } catch (error) {
                 alert('Error during scraping: ' + error.message);
+            } finally {
+                this.isLoading = false;
+            }
+        },
+
+        async nextPage() {
+            const nextPage = this.currentPage + 1;
+            const url = `${baseUrl}?page=${nextPage}&pageSize=10`;
+            await this.getQuotes(url);
+            this.currentPage = nextPage; 
+            this.disablePrevPage = false;
+            if (this.quotes.length === 0) {
+                this.disableNextPage = true;    
+            }
+        },
+        async previousPage() {
+            const previousPage = this.currentPage - 1;
+            if (previousPage < 1) return; // Prevent going to a non-existent page
+            const url = `${baseUrl}?page=${previousPage}&pageSize=10`;
+            await this.getQuotes(url);
+            this.currentPage = previousPage;
+            if (this.currentPage === 1) {
+                this.disablePrevPage = true;
             }
         }
   }

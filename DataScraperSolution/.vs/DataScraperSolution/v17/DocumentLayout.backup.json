@@ -66,8 +66,7 @@
               "RelativeToolTip": "DataScraper.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-25T12:03:05.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T12:03:05.6Z"
             },
             {
               "$type": "Document",
@@ -75,12 +74,11 @@
               "Title": "QuotesController.cs",
               "DocumentMoniker": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\Controllers\\QuotesController.cs",
               "RelativeDocumentMoniker": "DataScraper.Api\\Controllers\\QuotesController.cs",
-              "ToolTip": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\Controllers\\QuotesController.cs*",
-              "RelativeToolTip": "DataScraper.Api\\Controllers\\QuotesController.cs*",
+              "ToolTip": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\Controllers\\QuotesController.cs",
+              "RelativeToolTip": "DataScraper.Api\\Controllers\\QuotesController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T19:45:48.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T19:45:48.112Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "DataScraper.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T19:41:42.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T19:41:42.521Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "DataScraper.DataLib\\Quote.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T19:19:44.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T19:19:44.734Z"
             }
           ]
         }
