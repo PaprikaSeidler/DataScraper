@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{34866B1E-31BF-4099-9383-9FBA3E330113}|DataScraper.DataLib\\DataScraper.DataLib.csproj|solutionrelative:datascraper.datalib\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|c:\\users\\papri\\onedrive - zealand\\skrivebord\\skole\\mineprojekter\\datascraper\\datascrapersolution\\datascraper.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|solutionrelative:datascraper.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|c:\\users\\papri\\onedrive - zealand\\skrivebord\\skole\\mineprojekter\\datascraper\\datascrapersolution\\datascraper.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3117E19A-6E79-42AD-96F4-E971D13F7B04}|DataScraper.Api\\DataScraper.Api.csproj|solutionrelative:datascraper.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -62,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\appsettings.json",
               "RelativeDocumentMoniker": "DataScraper.Api\\appsettings.json",
@@ -80,26 +76,14 @@
               "RelativeDocumentMoniker": "DataScraper.Api\\Controllers\\QuotesController.cs",
               "ToolTip": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\Controllers\\QuotesController.cs",
               "RelativeToolTip": "DataScraper.Api\\Controllers\\QuotesController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAawE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T19:45:48.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "DataScraper.Api\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\appsettings.Development.json",
-              "RelativeToolTip": "DataScraper.Api\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-25T12:07:34.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.Api\\Program.cs",
               "RelativeDocumentMoniker": "DataScraper.Api\\Program.cs",
@@ -117,9 +101,10 @@
               "RelativeDocumentMoniker": "DataScraper.DataLib\\QuotesRepo.cs",
               "ToolTip": "C:\\Users\\papri\\OneDrive - Zealand\\Skrivebord\\Skole\\MineProjekter\\DataScraper\\DataScraperSolution\\DataScraper.DataLib\\QuotesRepo.cs",
               "RelativeToolTip": "DataScraper.DataLib\\QuotesRepo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwEUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T19:23:03.637Z"
+              "WhenOpened": "2025-07-24T19:23:03.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

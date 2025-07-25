@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using DataScraper.DataLib;
+using System.Diagnostics;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace DataScraper.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] 
     [ApiController]
     public class QuotesController : ControllerBase
     {
@@ -60,6 +61,19 @@ namespace DataScraper.Api.Controllers
                 return NoContent();
             }
             return Ok(quotes);
+        }
+
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //run python scraper directly
+        [HttpPost("scrape")]
+        public IActionResult ScrapeQuotes()
+        {
+            if (_quotesRepo.RunScraper(out var output, out var error))
+            {
+                return Ok("Scraper completed!\n" + output);
+            }
+            return BadRequest("Scraper failed:\n" + error);
         }
 
 

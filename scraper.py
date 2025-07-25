@@ -30,8 +30,6 @@ while True:
 # Convert the list to JSON format
 quotesJson = json.dumps(quotesList, indent=4, ensure_ascii=False)
 
-print(quotesJson) # Print the list of quotes
-
 
 # Save the JSON data to a file
 with open('quotes.json', 'w', encoding='utf-8') as file:

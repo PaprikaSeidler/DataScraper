@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,5 +39,36 @@ namespace DataScraper.DataLib
                 .Select(q => new Quote(q))
                 .ToList();
         }
+
+        // run python scraper
+        public bool RunScraper(out string output, out string error)
+        {
+            var scriptPath = "../../scraper.py";
+
+            var startInfo = new ProcessStartInfo
+            {
+                FileName = "python",
+                Arguments = scriptPath,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                CreateNoWindow = true
+            };
+
+            using var process = Process.Start(startInfo); // Starts the Python script using the Python interpreter
+            if (process == null)
+            {
+                output = "";
+                error = "Failed to start the Python process.";
+                return false;
+            }
+
+            output = process.StandardOutput.ReadToEnd(); // Reads the output from the Python script.
+            error = process.StandardError.ReadToEnd(); // Reads the error output from the Python script
+
+            process.WaitForExit();
+            return process.ExitCode == 0; 
+        }
+
     }
 }
