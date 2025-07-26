@@ -1,6 +1,6 @@
-# 🧠 Data Scraper – Full Stack Quote Scraper Project
+# 🧠 Data Scraper
 
-This started as a small Python project to learn about web scraping. It has since grown into a full-stack application with a .NET 8 API and a Vue-based frontend.
+This started as a small Python project to learn about web scraping. It has since grown into a full-stack application with a .NET 8 API and a Vue-based frontend for practice.
 The app scrapes quotes from [quotes.toscrape.com](http://quotes.toscrape.com), stores them in a JSON file, and displays them with filtering and pagination.
 
 ---
